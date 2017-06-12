@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+header{
+    border: 2px solid lightblue;
+    background-color: lightgray;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    
+}
+
+article{
+    border: 1px dashed lightgreen;
+    margin-top: 5em;
+    margin-right: 20em;
+    margin-left: 20em;
+    padding: 2em;
+
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightgreen;
+}
+
+.heading{
+    color:lightseagreen;
+    font-size: 2em;
+}
