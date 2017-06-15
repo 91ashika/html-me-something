@@ -1,20 +1,33 @@
 body{
     background-color: black;
+    background-image: url("images/newyork.jpg");
+    background-position: bottom left;
+
+    background-attachment:fixed;
+    
 }
 header{
     border: 2px solid lightblue;
-    background-color: lightgray;
+    background-color:#778899;
     text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    opacity: 0.75;
+    
     font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
     
 }
 
 article{
-    border: 1px dashed lightgreen;
+    border: 1px solid lightblue;
+    border-radius: 15px;
     margin-top: 5em;
     margin-right: 20em;
     margin-left: 20em;
     padding: 2em;
+    
+    background-color: black;
+    
 
 }
 
@@ -23,7 +36,46 @@ p{
     color: lightgreen;
 }
 
+#mainpara{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #009933;
+    font-size: 1.5em;
+}
+
 .heading{
     color:lightseagreen;
     font-size: 2em;
+    font-weight: bold;
+}
+
+#mainheading{
+    color: #1E90FF;
+    font-size: 3em;
+    
+}
+
+
+#contacts{
+    background-color: black;
+    color: #FFDEAD;
+    opacity:0.75;
+    min-height: 2em;
+    font-family: Tahoma;
+    
+}
+li{
+    list-style-type:none ;
+}
+article img{
+    width:100%;
+    margin-bottom: 1em;
+}
+
+a{
+    text-decoration: none;
+    color:#FFDEAD; 
+}
+
+a:hover{
+    text-decoration: underline;
 }
